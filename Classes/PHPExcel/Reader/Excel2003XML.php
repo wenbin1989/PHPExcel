@@ -49,7 +49,7 @@ class PHPExcel_Reader_Excel2003XML extends PHPExcel_Reader_Abstract implements P
 	 *
 	 * @var array
 	 */
-	protected $_styles = array();
+	protected $_styles = array('Default' => array());
 
 	/**
 	 * Character set used in the file
